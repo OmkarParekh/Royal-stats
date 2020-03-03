@@ -1,0 +1,16 @@
+{
+  "name": "royal-stats",
+  "version": "0.0.1",
+  "description": "Royal Stats is the REST Api built for integration with Royal Stats website.",
+  "main": "server.js",
+  "scripts": {
+    "run": "nodemon server.js"
+  },
+  "author": "Adarsh077",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
