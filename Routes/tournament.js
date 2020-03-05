@@ -9,7 +9,7 @@ const router = require('express').Router()
 
 const url = base_url
 router.get('/:tag', (req, res, next) => {
-	request(`${url}/tournament/%23${req.params.tag}`)
+	request(`${url}/tournaments/%23${req.params.tag}`)
 		.then(clan => res.send(clan))
 		.catch(next);
 });
