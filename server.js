@@ -6,6 +6,8 @@ const app = express();
 // serve static files...
 app.use(express.static('public'));
 
+app.use(cors())
+
 // Routers
 app.use('/player', require('./Routes/player'));
 app.use('/clan', require('./Routes/clan'));
